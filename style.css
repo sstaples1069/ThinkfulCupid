@@ -55,9 +55,10 @@ main img {
 
 header {
   background-color: #83092e;
-  padding: 20px 20px 5px 20px;
+  padding: 20px 20px 0px 20px;
   text-align: center;
-  
+  display: flex;
+  justify-content: center;  
 }
 
 .logo {
