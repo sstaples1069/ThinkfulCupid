@@ -32,7 +32,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -55,8 +55,9 @@ main img {
 
 header {
   background-color: #83092e;
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 5px 20px;
   text-align: center;
+  
 }
 
 .logo {
@@ -78,6 +79,14 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #bdbdbd;
   text-decoration: none;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid black; */
+  /* padding-bottom: 10px; */
 }
 
 /* -------  Join Form ------- */
@@ -105,6 +114,11 @@ form button {
   width: 100%;
 }
 
+form div {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* -------  Footer ------- */
 
 footer {
@@ -117,4 +131,6 @@ footer p {
   padding: 20px;
 }
 
-/* -------  Media Query ------- */
+/* -------  Media Query - as small as 320 ------- */
+
+/* -------  Media Query - breakpoint is 768 ------- */
